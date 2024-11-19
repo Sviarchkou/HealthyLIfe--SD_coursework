@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="FormControls\AnotherProgBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="FormControls\CircularProgressBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="FormControls\IgredientAddition.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="FormControls\MyPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="FormControls\MyProgressBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="FormControls\RecipeButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Forms\MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\MealAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\MyMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ProductCreationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\RecipeCreationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Registration\ActivityLevelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Authorization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Registration\GoalForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Registration\Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Registration\UserDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\WellcomeScrin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+</Project>
