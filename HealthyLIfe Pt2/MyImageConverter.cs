@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HealthyLIfe_Pt2
 {
-    public class ImageConverter
+    public class MyImageConverter
     {
         public static string chooseImage(out Image? image)
         {

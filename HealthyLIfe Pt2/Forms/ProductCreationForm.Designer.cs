@@ -61,9 +61,9 @@
             panel5 = new Panel();
             panel6 = new Panel();
             panel7 = new Panel();
-            microElTextBox = new TextBox();
+            mineralsTextBox = new TextBox();
             myPanel7 = new HealthyLife_Pt2.FormControls.MyPanel();
-            microElLabel = new Label();
+            mineralsLabel = new Label();
             label1 = new Label();
             panel8 = new Panel();
             vitaminsTextBox = new TextBox();
@@ -93,7 +93,6 @@
             descriptionTextBox.Size = new Size(345, 91);
             descriptionTextBox.TabIndex = 19;
             descriptionTextBox.TabStop = false;
-            descriptionTextBox.Text = "Поиск";
             // 
             // myPanel6
             // 
@@ -126,7 +125,6 @@
             nameTextBox.Size = new Size(340, 24);
             nameTextBox.TabIndex = 16;
             nameTextBox.TabStop = false;
-            nameTextBox.Text = "Поиск";
             // 
             // myPanel2
             // 
@@ -159,7 +157,6 @@
             categoryTextBox.Size = new Size(340, 24);
             categoryTextBox.TabIndex = 22;
             categoryTextBox.TabStop = false;
-            categoryTextBox.Text = "Поиск";
             // 
             // myPanel1
             // 
@@ -212,7 +209,6 @@
             caloriesTextBox.Size = new Size(45, 21);
             caloriesTextBox.TabIndex = 45;
             caloriesTextBox.TabStop = false;
-            caloriesTextBox.Text = "248";
             caloriesTextBox.TextAlign = HorizontalAlignment.Center;
             // 
             // myPanel10
@@ -257,7 +253,6 @@
             proteinsTextBox.Size = new Size(32, 21);
             proteinsTextBox.TabIndex = 62;
             proteinsTextBox.TabStop = false;
-            proteinsTextBox.Text = "243";
             proteinsTextBox.TextAlign = HorizontalAlignment.Center;
             // 
             // myPanel4
@@ -302,7 +297,6 @@
             fatsTextBox.Size = new Size(32, 21);
             fatsTextBox.TabIndex = 66;
             fatsTextBox.TabStop = false;
-            fatsTextBox.Text = "243";
             fatsTextBox.TextAlign = HorizontalAlignment.Center;
             // 
             // myPanel3
@@ -337,7 +331,6 @@
             carboTextBox.Size = new Size(32, 21);
             carboTextBox.TabIndex = 69;
             carboTextBox.TabStop = false;
-            carboTextBox.Text = "243";
             carboTextBox.TextAlign = HorizontalAlignment.Center;
             // 
             // myPanel5
@@ -355,13 +348,13 @@
             // 
             addButton.BackColor = Color.Transparent;
             addButton.BorderColor = Color.Transparent;
-            addButton.Font = new Font("Verdana", 25.8000011F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            addButton.Font = new Font("Verdana", 16.8000011F, FontStyle.Bold);
             addButton.ForeColor = Color.DarkViolet;
-            addButton.Location = new Point(236, 535);
+            addButton.Location = new Point(216, 517);
             addButton.Name = "addButton";
-            addButton.PanelColor = Color.Lime;
+            addButton.PanelColor = Color.Gainsboro;
             addButton.Rad = 60;
-            addButton.Size = new Size(181, 60);
+            addButton.Size = new Size(201, 60);
             addButton.TabIndex = 73;
             addButton.Click += addButton_Click;
             // 
@@ -428,18 +421,17 @@
             panel7.Size = new Size(160, 1);
             panel7.TabIndex = 84;
             // 
-            // microElTextBox
+            // mineralsTextBox
             // 
-            microElTextBox.BackColor = Color.Gainsboro;
-            microElTextBox.BorderStyle = BorderStyle.None;
-            microElTextBox.Font = new Font("Verdana", 10F);
-            microElTextBox.Location = new Point(43, 454);
-            microElTextBox.MaximumSize = new Size(170, 21);
-            microElTextBox.Name = "microElTextBox";
-            microElTextBox.Size = new Size(160, 21);
-            microElTextBox.TabIndex = 81;
-            microElTextBox.TabStop = false;
-            microElTextBox.Text = "248";
+            mineralsTextBox.BackColor = Color.Gainsboro;
+            mineralsTextBox.BorderStyle = BorderStyle.None;
+            mineralsTextBox.Font = new Font("Verdana", 10F);
+            mineralsTextBox.Location = new Point(43, 454);
+            mineralsTextBox.MaximumSize = new Size(170, 21);
+            mineralsTextBox.Name = "mineralsTextBox";
+            mineralsTextBox.Size = new Size(160, 21);
+            mineralsTextBox.TabIndex = 81;
+            mineralsTextBox.TabStop = false;
             // 
             // myPanel7
             // 
@@ -452,15 +444,15 @@
             myPanel7.Size = new Size(188, 40);
             myPanel7.TabIndex = 82;
             // 
-            // microElLabel
+            // mineralsLabel
             // 
-            microElLabel.AutoSize = true;
-            microElLabel.Font = new Font("Verdana", 10F);
-            microElLabel.Location = new Point(51, 424);
-            microElLabel.Name = "microElLabel";
-            microElLabel.Size = new Size(150, 20);
-            microElLabel.TabIndex = 80;
-            microElLabel.Text = "Микроэлементы";
+            mineralsLabel.AutoSize = true;
+            mineralsLabel.Font = new Font("Verdana", 10F);
+            mineralsLabel.Location = new Point(69, 424);
+            mineralsLabel.Name = "mineralsLabel";
+            mineralsLabel.Size = new Size(101, 20);
+            mineralsLabel.TabIndex = 80;
+            mineralsLabel.Text = "Минералы";
             // 
             // label1
             // 
@@ -492,7 +484,6 @@
             vitaminsTextBox.Size = new Size(160, 21);
             vitaminsTextBox.TabIndex = 86;
             vitaminsTextBox.TabStop = false;
-            vitaminsTextBox.Text = "248";
             // 
             // myPanel8
             // 
@@ -509,9 +500,10 @@
             // 
             pictureBox1.BackColor = Color.Gainsboro;
             pictureBox1.BorderStyle = BorderStyle.FixedSingle;
-            pictureBox1.Location = new Point(43, 525);
+            pictureBox1.Location = new Point(43, 507);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(70, 70);
+            pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBox1.TabIndex = 89;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
@@ -521,16 +513,16 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(457, 653);
+            ClientSize = new Size(457, 603);
             Controls.Add(pictureBox1);
             Controls.Add(panel8);
             Controls.Add(vitaminsTextBox);
             Controls.Add(myPanel8);
             Controls.Add(label1);
             Controls.Add(panel7);
-            Controls.Add(microElTextBox);
+            Controls.Add(mineralsTextBox);
             Controls.Add(myPanel7);
-            Controls.Add(microElLabel);
+            Controls.Add(mineralsLabel);
             Controls.Add(panel6);
             Controls.Add(panel5);
             Controls.Add(panel4);
@@ -605,9 +597,9 @@
         private Panel panel5;
         private Panel panel6;
         private Panel panel7;
-        private TextBox microElTextBox;
+        private TextBox mineralsTextBox;
         private HealthyLife_Pt2.FormControls.MyPanel myPanel7;
-        private Label microElLabel;
+        private Label mineralsLabel;
         private Label label1;
         private Panel panel8;
         private TextBox vitaminsTextBox;

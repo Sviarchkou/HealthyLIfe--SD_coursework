@@ -188,7 +188,7 @@
             // breakfastIcon
             // 
             breakfastIcon.BackColor = Color.Gainsboro;
-            breakfastIcon.BackgroundImage = Properties.Resources.Brakfast_1;
+            breakfastIcon.BackgroundImage = (Image)resources.GetObject("breakfastIcon.BackgroundImage");
             breakfastIcon.BackgroundImageLayout = ImageLayout.Stretch;
             breakfastIcon.Enabled = false;
             breakfastIcon.Location = new Point(525, 65);
@@ -209,21 +209,21 @@
             breakfastsDiscription.TabIndex = 18;
             breakfastsDiscription.Text = "Рекомендуется 470 ккал . .  . .";
             // 
-            // addButton
+            // breakfastAddButton
             // 
             breakfastAddButton.BackColor = Color.Gainsboro;
             breakfastAddButton.BorderColor = Color.Transparent;
             breakfastAddButton.Font = new Font("Verdana", 25.8000011F, FontStyle.Bold, GraphicsUnit.Point, 204);
             breakfastAddButton.ForeColor = Color.DarkViolet;
             breakfastAddButton.Location = new Point(874, 73);
-            breakfastAddButton.Name = "addButton";
+            breakfastAddButton.Name = "breakfastAddButton";
             breakfastAddButton.PanelColor = Color.LavenderBlush;
             breakfastAddButton.Rad = 60;
             breakfastAddButton.Size = new Size(60, 60);
             breakfastAddButton.TabIndex = 19;
             breakfastAddButton.Click += breakfastAddButton_Click;
-            breakfastAddButton.MouseEnter += breakfastAddButton_MouseEnter;
-            breakfastAddButton.MouseLeave += breakfastAddButton_MouseLeave;
+            breakfastAddButton.MouseEnter += meal_MouseEnter;
+            breakfastAddButton.MouseLeave += meal_MouseLeave;
             // 
             // lunchAddButton
             // 
@@ -237,6 +237,9 @@
             lunchAddButton.Rad = 60;
             lunchAddButton.Size = new Size(60, 60);
             lunchAddButton.TabIndex = 25;
+            lunchAddButton.Click += lunchAddButton_Click;
+            lunchAddButton.MouseEnter += meal_MouseEnter;
+            lunchAddButton.MouseLeave += meal_MouseLeave;
             // 
             // lunchDiscription
             // 
@@ -254,7 +257,7 @@
             // lunchIcon
             // 
             lunchIcon.BackColor = Color.Gainsboro;
-            lunchIcon.BackgroundImage = Properties.Resources.Lunch_Icon;
+            lunchIcon.BackgroundImage = (Image)resources.GetObject("lunchIcon.BackgroundImage");
             lunchIcon.BackgroundImageLayout = ImageLayout.Stretch;
             lunchIcon.Enabled = false;
             lunchIcon.Location = new Point(525, 204);
@@ -297,6 +300,9 @@
             dinnerAddButton.Rad = 60;
             dinnerAddButton.Size = new Size(60, 60);
             dinnerAddButton.TabIndex = 30;
+            dinnerAddButton.Click += dinnerAddButton_Click;
+            dinnerAddButton.MouseEnter += meal_MouseEnter;
+            dinnerAddButton.MouseLeave += meal_MouseLeave;
             // 
             // dinnerDiscription
             // 
@@ -314,7 +320,7 @@
             // dinnerIcon
             // 
             dinnerIcon.BackColor = Color.Gainsboro;
-            dinnerIcon.BackgroundImage = Properties.Resources.Dinner_Icon;
+            dinnerIcon.BackgroundImage = (Image)resources.GetObject("dinnerIcon.BackgroundImage");
             dinnerIcon.BackgroundImageLayout = ImageLayout.Stretch;
             dinnerIcon.Enabled = false;
             dinnerIcon.Location = new Point(525, 343);
@@ -357,6 +363,8 @@
             extrafoodAddButton.Rad = 60;
             extrafoodAddButton.Size = new Size(60, 60);
             extrafoodAddButton.TabIndex = 35;
+            extrafoodAddButton.MouseEnter += meal_MouseEnter;
+            extrafoodAddButton.MouseLeave += meal_MouseLeave;
             // 
             // extrafoodDiscription
             // 
@@ -374,7 +382,7 @@
             // extrafoodIcon
             // 
             extrafoodIcon.BackColor = Color.Gainsboro;
-            extrafoodIcon.BackgroundImage = Properties.Resources.Extra_Food;
+            extrafoodIcon.BackgroundImage = (Image)resources.GetObject("extrafoodIcon.BackgroundImage");
             extrafoodIcon.BackgroundImageLayout = ImageLayout.Stretch;
             extrafoodIcon.Enabled = false;
             extrafoodIcon.Location = new Point(525, 495);

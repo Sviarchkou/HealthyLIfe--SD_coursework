@@ -14,17 +14,20 @@ using System.Windows.Forms;
 
 namespace HealthyLIfe_Pt2.FormControls
 {
-    public partial class IgredientAddition : UserControl
+    public partial class IngredientAddition : UserControl
     {
 
         public List<Product> products = new List<Product>();
         public IEnumerable<Product> filteredProducts = new List<Product>();
+
+        public Product? currentProduct;
+
         Dictionary<Button, Product> buttonProducts = new Dictionary<Button, Product>();
         Dictionary<Button, Product> buttonInfoProducts = new Dictionary<Button, Product>();
         List<Button> productButtonsList = new List<Button>();
         List<Button> productInfoButtonsList = new List<Button>();
 
-        public IgredientAddition()
+        public IngredientAddition()
         {
             InitializeComponent();
 
@@ -36,8 +39,7 @@ namespace HealthyLIfe_Pt2.FormControls
                 }
 
             };
-
-            addButton.Text = "Добавить";
+            addButton.Text = "Создать продукт";
             addButton.MouseEnter += (object? sender, EventArgs e) => addButton.PanelColor = Color.Aqua;
             addButton.MouseLeave += (object? sender, EventArgs e) => addButton.PanelColor = Color.LavenderBlush;
 
@@ -56,7 +58,11 @@ namespace HealthyLIfe_Pt2.FormControls
             if (textBox1.Text == "")
                 temp = products;
             else
+            {
+                filteredProducts = from p in products where p.name.StartsWith(textBox1.Text) select p;
                 temp = filteredProducts.ToList();
+            }
+
 
             int i = 0;
             foreach (Product product in temp)
@@ -64,7 +70,7 @@ namespace HealthyLIfe_Pt2.FormControls
                 flowLayoutPanel1.Controls.Add(createProductButton(product));
                 flowLayoutPanel1.Controls.Add(createInfoButton(product));
                 i++;
-                if (i >= 10) return;
+                if (i >= 10) break;
             }
 
             flowLayoutPanel1.Height = buttonProducts.Count * 25;
@@ -104,6 +110,7 @@ namespace HealthyLIfe_Pt2.FormControls
         private void buttonClick(object sender, EventArgs e)
         {
             buttonProducts.TryGetValue((Button)sender, out Product? p);
+            currentProduct = p;
             textBox1.Text = p == null ? "" : p.name;
             element.Text = p == null ? "" : p.element.ToString();
             flowLayoutPanel1.Height = 0;
@@ -139,18 +146,6 @@ namespace HealthyLIfe_Pt2.FormControls
             loadData();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            loadData();
-        }
-
-        private void textBox1_Leave(object sender, EventArgs e)
-        {
-            flowLayoutPanel1.Height = 0;
-            if (textBox1.Text == "")
-                element.Text = "";
-        }
-
         private void addButton_Click(object sender, EventArgs e)
         {
             ProductCreationForm productCreationForm = new ProductCreationForm();
@@ -158,18 +153,52 @@ namespace HealthyLIfe_Pt2.FormControls
             productCreationForm.ShowDialog();
         }
 
-        private void IgredientAddition_Click(object sender, EventArgs e)
+        private void hideFlowLayoutPanel(object sender, EventArgs e)
         {
             flowLayoutPanel1.Height = 0;
             if (textBox1.Text == "")
                 element.Text = "";
         }
 
-        private void IgredientAddition_MouseLeave(object sender, EventArgs e)
+        private void label4_Click(object sender, EventArgs e)
         {
-            flowLayoutPanel1.Height = 0;
-            if (textBox1.Text == "")
-                element.Text = "";
+            this.Dispose();
+        }
+
+        public Ingredient getIngredient()
+        {
+            Ingredient ingredient = new Ingredient();
+
+            if (currentProduct != null)
+            {
+                ingredient.product = currentProduct;
+            }
+            else
+            {
+                throw new Exception("Product is null");
+            }
+
+            double weight = 0;
+            if (Double.TryParse(weightTextBox.Text, out weight) && weight >= 0)
+            {
+                ingredient.weight = weight;
+            }
+            else
+            {
+                throw new Exception($"Неверный вес продукта {currentProduct.name}");
+            }
+
+            return ingredient;
+        }
+
+        private void label4_MouseEnter(object sender, EventArgs e)
+        {
+            label4.BackColor = Color.Tomato;
+        }
+
+        private void label4_MouseLeave(object sender, EventArgs e)
+        {
+            label4.BackColor = Color.IndianRed;
         }
     }
 }

@@ -44,6 +44,7 @@ D:\БГУИР\2-й курс\КПО\Курсач\Pt2\HealthyLIfe Pt2\HealthyLIfe 
 D:\БГУИР\2-й курс\КПО\Курсач\Pt2\HealthyLIfe Pt2\HealthyLIfe Pt2\obj\Debug\net8.0-windows\HealthyLife_Pt2.Forms.Registrarion.UserDataForm.resources
 D:\БГУИР\2-й курс\КПО\Курсач\Pt2\HealthyLIfe Pt2\HealthyLIfe Pt2\obj\Debug\net8.0-windows\HealthyLife_Pt2.Forms.WellcomeScrin.resources
 D:\БГУИР\2-й курс\КПО\Курсач\Pt2\HealthyLIfe Pt2\HealthyLIfe Pt2\obj\Debug\net8.0-windows\HealthyLIfe_Pt2.Forms.RecipeCreationForm.resources
-D:\БГУИР\2-й курс\КПО\Курсач\Pt2\HealthyLIfe Pt2\HealthyLIfe Pt2\obj\Debug\net8.0-windows\HealthyLIfe_Pt2.FormControls.IgredientAddition.resources
 D:\БГУИР\2-й курс\КПО\Курсач\Pt2\HealthyLIfe Pt2\HealthyLIfe Pt2\obj\Debug\net8.0-windows\HealthyLIfe_Pt2.Forms.ProductCreationForm.resources
 D:\БГУИР\2-й курс\КПО\Курсач\Pt2\HealthyLIfe Pt2\HealthyLIfe Pt2\obj\Debug\net8.0-windows\HealthyLIfe_Pt2.Forms.MyMessageBox.resources
+D:\БГУИР\2-й курс\КПО\Курсач\Pt2\HealthyLIfe Pt2\HealthyLIfe Pt2\obj\Debug\net8.0-windows\HealthyLIfe Pt2.sourcelink.json
+D:\БГУИР\2-й курс\КПО\Курсач\Pt2\HealthyLIfe Pt2\HealthyLIfe Pt2\obj\Debug\net8.0-windows\HealthyLIfe_Pt2.FormControls.IngredientAddition.resources

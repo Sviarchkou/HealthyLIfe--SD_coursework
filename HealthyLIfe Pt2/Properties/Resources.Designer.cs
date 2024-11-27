@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace HealthyLife_Pt2.Properties {
+namespace HealthyLIfe_Pt2.Properties {
     using System;
     
     

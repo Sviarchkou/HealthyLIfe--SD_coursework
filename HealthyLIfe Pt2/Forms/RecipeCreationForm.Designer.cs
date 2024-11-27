@@ -28,340 +28,437 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
-            myPanel2 = new HealthyLife_Pt2.FormControls.MyPanel();
-            label1 = new Label();
-            textBox3 = new TextBox();
+            panel5 = new Panel();
+            descriptionLabel = new Label();
+            descriptionTextBox = new TextBox();
             myPanel6 = new HealthyLife_Pt2.FormControls.MyPanel();
-            label2 = new Label();
-            textBox7 = new TextBox();
-            myPanel7 = new HealthyLife_Pt2.FormControls.MyPanel();
-            textBox8 = new TextBox();
-            myPanel8 = new HealthyLife_Pt2.FormControls.MyPanel();
-            textBox9 = new TextBox();
-            myPanel9 = new HealthyLife_Pt2.FormControls.MyPanel();
-            label7 = new Label();
-            label8 = new Label();
-            label9 = new Label();
-            textBox10 = new TextBox();
-            myPanel10 = new HealthyLife_Pt2.FormControls.MyPanel();
-            label10 = new Label();
-            comboBox = new ComboBox();
-            ingredientLabel = new Label();
-            igredientAddition1 = new FormControls.IgredientAddition();
-            igredientAddition2 = new FormControls.IgredientAddition();
-            igredientAddition3 = new FormControls.IgredientAddition();
+            nameLabel = new Label();
+            nameTextBox = new TextBox();
+            myPanel2 = new HealthyLife_Pt2.FormControls.MyPanel();
+            addIngredientPanel = new HealthyLife_Pt2.FormControls.MyPanel();
+            anotherProgBar1 = new HealthyLife_Pt2.FormControls.AnotherProgBar();
+            label11 = new Label();
+            myPanel5 = new HealthyLife_Pt2.FormControls.MyPanel();
+            label6 = new Label();
+            myPanel3 = new HealthyLife_Pt2.FormControls.MyPanel();
+            label4 = new Label();
+            carboLabel = new Label();
+            fatsLabel = new Label();
+            myPanel1 = new HealthyLife_Pt2.FormControls.MyPanel();
+            caloriesLabel = new Label();
+            pictureBox1 = new PictureBox();
+            label5 = new Label();
+            myPanel4 = new HealthyLife_Pt2.FormControls.MyPanel();
+            proteinsLabel = new Label();
+            caloriesCounter = new Label();
+            proteinCounter = new Label();
+            fatsCounter = new Label();
+            carboCounter = new Label();
+            label1 = new Label();
+            button1 = new Button();
+            button2 = new Button();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
-            // textBox1
+            // panel5
             // 
-            textBox1.BackColor = Color.Gainsboro;
-            textBox1.BorderStyle = BorderStyle.None;
-            textBox1.Font = new Font("Verdana", 11.8F);
-            textBox1.Location = new Point(57, 58);
-            textBox1.Margin = new Padding(0);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(340, 24);
-            textBox1.TabIndex = 6;
-            textBox1.TabStop = false;
-            textBox1.Text = "Поиск";
+            panel5.BackColor = Color.Black;
+            panel5.Enabled = false;
+            panel5.Location = new Point(56, 84);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(342, 1);
+            panel5.TabIndex = 89;
             // 
-            // myPanel2
+            // descriptionLabel
             // 
-            myPanel2.BackColor = Color.Transparent;
-            myPanel2.BorderColor = Color.Transparent;
-            myPanel2.Location = new Point(34, 45);
-            myPanel2.Name = "myPanel2";
-            myPanel2.PanelColor = Color.Gainsboro;
-            myPanel2.Rad = 50;
-            myPanel2.Size = new Size(392, 50);
-            myPanel2.TabIndex = 7;
+            descriptionLabel.AutoSize = true;
+            descriptionLabel.Font = new Font("Verdana", 12F);
+            descriptionLabel.Location = new Point(51, 118);
+            descriptionLabel.Name = "descriptionLabel";
+            descriptionLabel.Size = new Size(115, 25);
+            descriptionLabel.TabIndex = 85;
+            descriptionLabel.Text = "Описание";
             // 
-            // label1
+            // descriptionTextBox
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            label1.Location = new Point(57, 17);
-            label1.Name = "label1";
-            label1.Size = new Size(111, 25);
-            label1.TabIndex = 12;
-            label1.Text = "Название";
-            // 
-            // textBox3
-            // 
-            textBox3.BackColor = Color.Gainsboro;
-            textBox3.BorderStyle = BorderStyle.None;
-            textBox3.Font = new Font("Verdana", 11.8F);
-            textBox3.Location = new Point(57, 154);
-            textBox3.Multiline = true;
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(340, 111);
-            textBox3.TabIndex = 13;
-            textBox3.TabStop = false;
-            textBox3.Text = "Поиск";
+            descriptionTextBox.BackColor = Color.Gainsboro;
+            descriptionTextBox.BorderStyle = BorderStyle.None;
+            descriptionTextBox.Font = new Font("Verdana", 11F);
+            descriptionTextBox.Location = new Point(51, 163);
+            descriptionTextBox.Multiline = true;
+            descriptionTextBox.Name = "descriptionTextBox";
+            descriptionTextBox.Size = new Size(345, 225);
+            descriptionTextBox.TabIndex = 83;
+            descriptionTextBox.TabStop = false;
+            descriptionTextBox.Text = "Поиск";
             // 
             // myPanel6
             // 
             myPanel6.BackColor = Color.Transparent;
             myPanel6.BorderColor = Color.Transparent;
-            myPanel6.Location = new Point(34, 137);
+            myPanel6.Location = new Point(28, 146);
             myPanel6.Name = "myPanel6";
             myPanel6.PanelColor = Color.Gainsboro;
             myPanel6.Rad = 50;
-            myPanel6.Size = new Size(392, 145);
-            myPanel6.TabIndex = 14;
+            myPanel6.Size = new Size(392, 261);
+            myPanel6.TabIndex = 84;
             // 
-            // label2
+            // nameLabel
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            label2.Location = new Point(57, 109);
-            label2.Name = "label2";
-            label2.Size = new Size(115, 25);
-            label2.TabIndex = 15;
-            label2.Text = "Описание";
+            nameLabel.AutoSize = true;
+            nameLabel.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            nameLabel.Location = new Point(51, 17);
+            nameLabel.Name = "nameLabel";
+            nameLabel.Size = new Size(111, 25);
+            nameLabel.TabIndex = 82;
+            nameLabel.Text = "Название";
             // 
-            // textBox7
+            // nameTextBox
             // 
-            textBox7.BackColor = Color.Gainsboro;
-            textBox7.BorderStyle = BorderStyle.None;
-            textBox7.Font = new Font("Verdana", 10F);
-            textBox7.Location = new Point(1106, 194);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(65, 21);
-            textBox7.TabIndex = 42;
-            textBox7.TabStop = false;
-            textBox7.Text = "Поиск";
+            nameTextBox.BackColor = Color.Gainsboro;
+            nameTextBox.BorderStyle = BorderStyle.None;
+            nameTextBox.Font = new Font("Verdana", 11F);
+            nameTextBox.Location = new Point(56, 58);
+            nameTextBox.Name = "nameTextBox";
+            nameTextBox.Size = new Size(340, 23);
+            nameTextBox.TabIndex = 80;
+            nameTextBox.TabStop = false;
+            nameTextBox.Text = "Поиск";
             // 
-            // myPanel7
+            // myPanel2
             // 
-            myPanel7.BackColor = Color.Transparent;
-            myPanel7.BorderColor = Color.Transparent;
-            myPanel7.Location = new Point(1090, 185);
-            myPanel7.Name = "myPanel7";
-            myPanel7.PanelColor = Color.Gainsboro;
-            myPanel7.Rad = 40;
-            myPanel7.Size = new Size(96, 40);
-            myPanel7.TabIndex = 43;
+            myPanel2.BackColor = Color.Transparent;
+            myPanel2.BorderColor = Color.Transparent;
+            myPanel2.Location = new Point(28, 45);
+            myPanel2.Name = "myPanel2";
+            myPanel2.PanelColor = Color.Gainsboro;
+            myPanel2.Rad = 50;
+            myPanel2.Size = new Size(392, 50);
+            myPanel2.TabIndex = 81;
             // 
-            // textBox8
+            // addIngredientPanel
             // 
-            textBox8.BackColor = Color.Gainsboro;
-            textBox8.BorderStyle = BorderStyle.None;
-            textBox8.Font = new Font("Verdana", 10F);
-            textBox8.Location = new Point(1001, 194);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(65, 21);
-            textBox8.TabIndex = 40;
-            textBox8.TabStop = false;
-            textBox8.Text = "Поиск";
+            addIngredientPanel.BorderColor = Color.DarkGray;
+            addIngredientPanel.Font = new Font("Verdana", 11F, FontStyle.Bold);
+            addIngredientPanel.ForeColor = Color.DarkViolet;
+            addIngredientPanel.Location = new Point(470, 155);
+            addIngredientPanel.Margin = new Padding(10);
+            addIngredientPanel.Name = "addIngredientPanel";
+            addIngredientPanel.Padding = new Padding(10);
+            addIngredientPanel.PanelColor = Color.Gainsboro;
+            addIngredientPanel.Rad = 30;
+            addIngredientPanel.Size = new Size(471, 38);
+            addIngredientPanel.TabIndex = 105;
+            addIngredientPanel.Click += addIngredientPanel_Click;
+            addIngredientPanel.MouseEnter += addIngredientPanel_MouseEnter;
+            addIngredientPanel.MouseLeave += addIngredientPanel_MouseLeave;
             // 
-            // myPanel8
+            // anotherProgBar1
             // 
-            myPanel8.BackColor = Color.Transparent;
-            myPanel8.BorderColor = Color.Transparent;
-            myPanel8.Location = new Point(985, 185);
-            myPanel8.Name = "myPanel8";
-            myPanel8.PanelColor = Color.Gainsboro;
-            myPanel8.Rad = 40;
-            myPanel8.Size = new Size(96, 40);
-            myPanel8.TabIndex = 41;
+            anotherProgBar1.Location = new Point(470, 42);
+            anotherProgBar1.MaxValue = 100;
+            anotherProgBar1.MinValue = 0;
+            anotherProgBar1.Name = "anotherProgBar1";
+            anotherProgBar1.ProgressColor = Color.DarkViolet;
+            anotherProgBar1.Size = new Size(471, 100);
+            anotherProgBar1.TabIndex = 107;
+            anotherProgBar1.Text = "anotherProgBar1";
+            anotherProgBar1.Value = 100;
             // 
-            // textBox9
+            // label11
             // 
-            textBox9.BackColor = Color.Gainsboro;
-            textBox9.BorderStyle = BorderStyle.None;
-            textBox9.Font = new Font("Verdana", 10F);
-            textBox9.Location = new Point(897, 194);
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(65, 21);
-            textBox9.TabIndex = 38;
-            textBox9.TabStop = false;
-            textBox9.Text = "Поиск";
+            label11.AutoSize = true;
+            label11.BackColor = Color.Gainsboro;
+            label11.Font = new Font("Verdana", 10F);
+            label11.Location = new Point(242, 494);
+            label11.Name = "label11";
+            label11.Size = new Size(23, 20);
+            label11.TabIndex = 123;
+            label11.Text = "г.";
             // 
-            // myPanel9
+            // myPanel5
             // 
-            myPanel9.BackColor = Color.Transparent;
-            myPanel9.BorderColor = Color.Transparent;
-            myPanel9.Location = new Point(881, 185);
-            myPanel9.Name = "myPanel9";
-            myPanel9.PanelColor = Color.Gainsboro;
-            myPanel9.Rad = 40;
-            myPanel9.Size = new Size(96, 40);
-            myPanel9.TabIndex = 39;
+            myPanel5.BackColor = Color.Transparent;
+            myPanel5.BorderColor = Color.Transparent;
+            myPanel5.Location = new Point(188, 485);
+            myPanel5.Name = "myPanel5";
+            myPanel5.PanelColor = Color.Gainsboro;
+            myPanel5.Rad = 40;
+            myPanel5.Size = new Size(87, 40);
+            myPanel5.TabIndex = 122;
             // 
-            // label7
+            // label6
             // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Verdana", 10F);
-            label7.Location = new Point(1093, 154);
-            label7.Name = "label7";
-            label7.Size = new Size(93, 20);
-            label7.TabIndex = 37;
-            label7.Text = "Углеводы";
+            label6.AutoSize = true;
+            label6.BackColor = Color.Gainsboro;
+            label6.Font = new Font("Verdana", 10F);
+            label6.Location = new Point(242, 586);
+            label6.Name = "label6";
+            label6.Size = new Size(23, 20);
+            label6.TabIndex = 120;
+            label6.Text = "г.";
             // 
-            // label8
+            // myPanel3
             // 
-            label8.AutoSize = true;
-            label8.Font = new Font("Verdana", 10F);
-            label8.Location = new Point(1001, 154);
-            label8.Name = "label8";
-            label8.Size = new Size(62, 20);
-            label8.TabIndex = 36;
-            label8.Text = "Жиры";
+            myPanel3.BackColor = Color.Transparent;
+            myPanel3.BorderColor = Color.Transparent;
+            myPanel3.Location = new Point(188, 577);
+            myPanel3.Name = "myPanel3";
+            myPanel3.PanelColor = Color.Gainsboro;
+            myPanel3.Rad = 40;
+            myPanel3.Size = new Size(87, 40);
+            myPanel3.TabIndex = 119;
             // 
-            // label9
+            // label4
             // 
-            label9.AutoSize = true;
-            label9.Font = new Font("Verdana", 10F);
-            label9.Location = new Point(897, 154);
-            label9.Name = "label9";
-            label9.Size = new Size(63, 20);
-            label9.TabIndex = 35;
-            label9.Text = "Белки";
+            label4.BackColor = Color.Gainsboro;
+            label4.Font = new Font("Verdana", 10F);
+            label4.Location = new Point(211, 448);
+            label4.Name = "label4";
+            label4.Size = new Size(56, 20);
+            label4.TabIndex = 117;
+            label4.Text = "ккал.";
             // 
-            // textBox10
+            // carboLabel
             // 
-            textBox10.BackColor = Color.Gainsboro;
-            textBox10.BorderStyle = BorderStyle.None;
-            textBox10.Font = new Font("Verdana", 10F);
-            textBox10.Location = new Point(794, 194);
-            textBox10.Name = "textBox10";
-            textBox10.Size = new Size(65, 21);
-            textBox10.TabIndex = 33;
-            textBox10.TabStop = false;
-            textBox10.Text = "2348";
+            carboLabel.AutoSize = true;
+            carboLabel.Font = new Font("Verdana", 10F);
+            carboLabel.Location = new Point(41, 586);
+            carboLabel.Name = "carboLabel";
+            carboLabel.Size = new Size(93, 20);
+            carboLabel.TabIndex = 113;
+            carboLabel.Text = "Углеводы";
             // 
-            // myPanel10
+            // fatsLabel
             // 
-            myPanel10.BackColor = Color.Transparent;
-            myPanel10.BorderColor = Color.Transparent;
-            myPanel10.Location = new Point(778, 185);
-            myPanel10.Name = "myPanel10";
-            myPanel10.PanelColor = Color.Gainsboro;
-            myPanel10.Rad = 40;
-            myPanel10.Size = new Size(96, 40);
-            myPanel10.TabIndex = 34;
+            fatsLabel.AutoSize = true;
+            fatsLabel.Font = new Font("Verdana", 10F);
+            fatsLabel.Location = new Point(41, 540);
+            fatsLabel.Name = "fatsLabel";
+            fatsLabel.Size = new Size(62, 20);
+            fatsLabel.TabIndex = 112;
+            fatsLabel.Text = "Жиры";
             // 
-            // label10
+            // myPanel1
             // 
-            label10.AutoSize = true;
-            label10.Font = new Font("Verdana", 10F);
-            label10.Location = new Point(778, 154);
-            label10.Name = "label10";
-            label10.Size = new Size(96, 20);
-            label10.TabIndex = 32;
-            label10.Text = "Каллории";
+            myPanel1.BackColor = Color.Transparent;
+            myPanel1.BorderColor = Color.Transparent;
+            myPanel1.Location = new Point(153, 439);
+            myPanel1.Name = "myPanel1";
+            myPanel1.PanelColor = Color.Gainsboro;
+            myPanel1.Rad = 40;
+            myPanel1.Size = new Size(122, 40);
+            myPanel1.TabIndex = 110;
             // 
-            // comboBox
+            // caloriesLabel
             // 
-            comboBox.FormattingEnabled = true;
-            comboBox.Location = new Point(57, 351);
-            comboBox.Name = "comboBox";
-            comboBox.Size = new Size(340, 28);
-            comboBox.TabIndex = 45;
-            comboBox.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
-            comboBox.TextUpdate += comboBox1_TextUpdate;
+            caloriesLabel.AutoSize = true;
+            caloriesLabel.Font = new Font("Verdana", 10F);
+            caloriesLabel.Location = new Point(41, 448);
+            caloriesLabel.Name = "caloriesLabel";
+            caloriesLabel.Size = new Size(96, 20);
+            caloriesLabel.TabIndex = 108;
+            caloriesLabel.Text = "Каллории";
             // 
-            // ingredientLabel
+            // pictureBox1
             // 
-            ingredientLabel.AutoSize = true;
-            ingredientLabel.Font = new Font("Verdana", 12F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            ingredientLabel.Location = new Point(53, 312);
-            ingredientLabel.Name = "ingredientLabel";
-            ingredientLabel.Size = new Size(149, 25);
-            ingredientLabel.TabIndex = 46;
-            ingredientLabel.Text = "Ингредиенты";
+            pictureBox1.BackColor = Color.Gainsboro;
+            pictureBox1.BorderStyle = BorderStyle.FixedSingle;
+            pictureBox1.Location = new Point(298, 494);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(100, 100);
+            pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
+            pictureBox1.TabIndex = 124;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
-            // igredientAddition1
+            // label5
             // 
-            igredientAddition1.AutoSize = true;
-            igredientAddition1.BackColor = Color.White;
-            igredientAddition1.Location = new Point(476, 45);
-            igredientAddition1.Name = "igredientAddition1";
-            igredientAddition1.Size = new Size(383, 98);
-            igredientAddition1.TabIndex = 47;
+            label5.AutoSize = true;
+            label5.BackColor = Color.Gainsboro;
+            label5.Font = new Font("Verdana", 10F);
+            label5.Location = new Point(242, 540);
+            label5.Name = "label5";
+            label5.Size = new Size(23, 20);
+            label5.TabIndex = 127;
+            label5.Text = "г.";
             // 
-            // igredientAddition2
+            // myPanel4
             // 
-            igredientAddition2.AutoSize = true;
-            igredientAddition2.BackColor = Color.White;
-            igredientAddition2.Location = new Point(476, 162);
-            igredientAddition2.Name = "igredientAddition2";
-            igredientAddition2.Size = new Size(383, 98);
-            igredientAddition2.TabIndex = 48;
+            myPanel4.BackColor = Color.Transparent;
+            myPanel4.BorderColor = Color.Transparent;
+            myPanel4.Location = new Point(188, 531);
+            myPanel4.Name = "myPanel4";
+            myPanel4.PanelColor = Color.Gainsboro;
+            myPanel4.Rad = 40;
+            myPanel4.Size = new Size(87, 40);
+            myPanel4.TabIndex = 126;
             // 
-            // igredientAddition3
+            // proteinsLabel
             // 
-            igredientAddition3.AutoSize = true;
-            igredientAddition3.BackColor = Color.White;
-            igredientAddition3.Location = new Point(476, 266);
-            igredientAddition3.Name = "igredientAddition3";
-            igredientAddition3.Size = new Size(383, 98);
-            igredientAddition3.TabIndex = 49;
+            proteinsLabel.AutoSize = true;
+            proteinsLabel.Font = new Font("Verdana", 10F);
+            proteinsLabel.Location = new Point(41, 494);
+            proteinsLabel.Name = "proteinsLabel";
+            proteinsLabel.Size = new Size(63, 20);
+            proteinsLabel.TabIndex = 125;
+            proteinsLabel.Text = "Белки";
+            // 
+            // caloriesCounter
+            // 
+            caloriesCounter.BackColor = Color.Gainsboro;
+            caloriesCounter.Font = new Font("Verdana", 10F);
+            caloriesCounter.Location = new Point(162, 448);
+            caloriesCounter.Name = "caloriesCounter";
+            caloriesCounter.Size = new Size(53, 20);
+            caloriesCounter.TabIndex = 128;
+            caloriesCounter.Text = "785";
+            caloriesCounter.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // proteinCounter
+            // 
+            proteinCounter.BackColor = Color.Gainsboro;
+            proteinCounter.Font = new Font("Verdana", 10F);
+            proteinCounter.Location = new Point(196, 494);
+            proteinCounter.Name = "proteinCounter";
+            proteinCounter.Size = new Size(49, 20);
+            proteinCounter.TabIndex = 129;
+            proteinCounter.Text = "60";
+            proteinCounter.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // fatsCounter
+            // 
+            fatsCounter.BackColor = Color.Gainsboro;
+            fatsCounter.Font = new Font("Verdana", 10F);
+            fatsCounter.Location = new Point(196, 540);
+            fatsCounter.Name = "fatsCounter";
+            fatsCounter.Size = new Size(49, 20);
+            fatsCounter.TabIndex = 130;
+            fatsCounter.Text = "40";
+            fatsCounter.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // carboCounter
+            // 
+            carboCounter.BackColor = Color.Gainsboro;
+            carboCounter.Font = new Font("Verdana", 10F);
+            carboCounter.Location = new Point(196, 586);
+            carboCounter.Name = "carboCounter";
+            carboCounter.Size = new Size(49, 20);
+            carboCounter.TabIndex = 131;
+            carboCounter.Text = "450";
+            carboCounter.TextAlign = ContentAlignment.MiddleRight;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Verdana", 10F);
+            label1.Location = new Point(323, 597);
+            label1.Name = "label1";
+            label1.Size = new Size(51, 20);
+            label1.TabIndex = 132;
+            label1.Text = "Фото";
+            // 
+            // button1
+            // 
+            button1.Font = new Font("Verdana", 9F);
+            button1.Location = new Point(298, 439);
+            button1.Name = "button1";
+            button1.Size = new Size(100, 40);
+            button1.TabIndex = 133;
+            button1.Text = "Обновить";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.Gainsboro;
+            button2.Dock = DockStyle.Bottom;
+            button2.Font = new Font("Verdana", 14F, FontStyle.Bold);
+            button2.ForeColor = Color.DarkViolet;
+            button2.Location = new Point(0, 665);
+            button2.Name = "button2";
+            button2.Size = new Size(970, 42);
+            button2.TabIndex = 134;
+            button2.Text = "Создать этот рецепт";
+            button2.TextAlign = ContentAlignment.TopCenter;
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // RecipeCreationForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoScroll = true;
-            BackColor = Color.FloralWhite;
-            ClientSize = new Size(1192, 473);
-            Controls.Add(igredientAddition1);
-            Controls.Add(igredientAddition3);
-            Controls.Add(igredientAddition2);
-            Controls.Add(ingredientLabel);
-            Controls.Add(comboBox);
-            Controls.Add(textBox7);
-            Controls.Add(myPanel7);
-            Controls.Add(textBox8);
-            Controls.Add(myPanel8);
-            Controls.Add(textBox9);
-            Controls.Add(myPanel9);
-            Controls.Add(label7);
-            Controls.Add(label8);
-            Controls.Add(label9);
-            Controls.Add(textBox10);
-            Controls.Add(myPanel10);
-            Controls.Add(label10);
-            Controls.Add(label2);
-            Controls.Add(textBox3);
-            Controls.Add(myPanel6);
+            BackColor = Color.White;
+            ClientSize = new Size(970, 707);
+            Controls.Add(addIngredientPanel);
+            Controls.Add(button2);
+            Controls.Add(button1);
             Controls.Add(label1);
-            Controls.Add(textBox1);
+            Controls.Add(carboCounter);
+            Controls.Add(fatsCounter);
+            Controls.Add(proteinCounter);
+            Controls.Add(caloriesCounter);
+            Controls.Add(label5);
+            Controls.Add(myPanel4);
+            Controls.Add(proteinsLabel);
+            Controls.Add(pictureBox1);
+            Controls.Add(label11);
+            Controls.Add(myPanel5);
+            Controls.Add(label6);
+            Controls.Add(myPanel3);
+            Controls.Add(label4);
+            Controls.Add(carboLabel);
+            Controls.Add(fatsLabel);
+            Controls.Add(myPanel1);
+            Controls.Add(caloriesLabel);
+            Controls.Add(anotherProgBar1);
+            Controls.Add(panel5);
+            Controls.Add(descriptionLabel);
+            Controls.Add(descriptionTextBox);
+            Controls.Add(myPanel6);
+            Controls.Add(nameLabel);
+            Controls.Add(nameTextBox);
             Controls.Add(myPanel2);
             FormBorderStyle = FormBorderStyle.SizableToolWindow;
             MinimumSize = new Size(700, 520);
             Name = "RecipeCreationForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "RecipeCreationForm";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-        private TextBox textBox1;
-        private HealthyLife_Pt2.FormControls.MyPanel myPanel2;
-        private Label label1;
-        private TextBox textBox3;
+        private Panel panel5;
+        private Label descriptionLabel;
+        private TextBox descriptionTextBox;
         private HealthyLife_Pt2.FormControls.MyPanel myPanel6;
-        private Label label2;
-        private TextBox textBox7;
-        private HealthyLife_Pt2.FormControls.MyPanel myPanel7;
-        private TextBox textBox8;
-        private HealthyLife_Pt2.FormControls.MyPanel myPanel8;
-        private TextBox textBox9;
-        private HealthyLife_Pt2.FormControls.MyPanel myPanel9;
-        private Label label7;
-        private Label label8;
-        private Label label9;
-        private TextBox textBox10;
-        private HealthyLife_Pt2.FormControls.MyPanel myPanel10;
-        private Label label10;
-        private ComboBox comboBox;
-        private Label ingredientLabel;
-        private FormControls.IgredientAddition igredientAddition1;
-        private FormControls.IgredientAddition igredientAddition2;
-        private FormControls.IgredientAddition igredientAddition3;
+        private Label nameLabel;
+        private TextBox nameTextBox;
+        private HealthyLife_Pt2.FormControls.MyPanel myPanel2;
+        private HealthyLife_Pt2.FormControls.MyPanel addIngredientPanel;
+        private HealthyLife_Pt2.FormControls.AnotherProgBar anotherProgBar1;
+        private Label label11;
+        private HealthyLife_Pt2.FormControls.MyPanel myPanel5;
+        private Label label6;
+        private HealthyLife_Pt2.FormControls.MyPanel myPanel3;
+        private Label label4;
+        private Label carboLabel;
+        private Label fatsLabel;
+        private HealthyLife_Pt2.FormControls.MyPanel myPanel1;
+        private Label caloriesLabel;
+        private PictureBox pictureBox1;
+        private Label label5;
+        private HealthyLife_Pt2.FormControls.MyPanel myPanel4;
+        private Label proteinsLabel;
+        private Label caloriesCounter;
+        private Label proteinCounter;
+        private Label fatsCounter;
+        private Label carboCounter;
+        private Label label1;
+        private Button button1;
+        private Button button2;
     }
 }

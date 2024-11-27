@@ -21,7 +21,7 @@ namespace HealthyLife_Pt2
                
             Application.EnableVisualStyles();
             ApplicationConfiguration.Initialize();
-            Application.Run(new RecipeCreationForm()); ;
+            Application.Run(new WellcomeScrin()); ;
             
             /*
             DBConnector db = new DBConnector();

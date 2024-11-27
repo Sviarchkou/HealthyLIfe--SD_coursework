@@ -39,7 +39,6 @@ namespace HealthyLife_Pt2.Forms
 
         }
 
-
         private async void initForm()
         {
             UserController userController = new UserController();
@@ -78,14 +77,14 @@ namespace HealthyLife_Pt2.Forms
                 Meal meal = new Meal();
                 ElementController elementController = new ElementController();
                 meal.element.id = await elementController.insertElement(meal.element);
-                
+
                 MealController mealController = new MealController();
                 meal.id = await mealController.insertMeal(meal);
 
-               dailyMeal = await dailyMealController.insertTodayDailyMeal(user, meal);
+                dailyMeal = await dailyMealController.insertTodayDailyMeal(user, meal);
 
             }
-            
+
 
             fillForm();
         }
@@ -104,16 +103,31 @@ namespace HealthyLife_Pt2.Forms
             carbohydratesBar.Value = (int)(currentElement.carbohydrates * 100 / requiredElements.carbohydrates);
 
             if (dailyMeal.meal.breakfast != null)
-                breakfastsDiscription.Text = dailyMeal.meal.breakfast.name;
+            {
+                if (dailyMeal.meal.breakfast.name.Length > 21)
+                    breakfastsDiscription.Text = dailyMeal.meal.breakfast.name.Substring(0, 21) + "...";
+                else
+                    breakfastsDiscription.Text = dailyMeal.meal.breakfast.name;
+            }
 
             if (dailyMeal.meal.lunch != null)
-                breakfastsDiscription.Text = dailyMeal.meal.lunch.name;
+            {
+                if (dailyMeal.meal.lunch.name.Length > 21)
+                    lunchDiscription.Text = dailyMeal.meal.lunch.name.Substring(0, 21) + "...";
+                else
+                    lunchDiscription.Text = dailyMeal.meal.lunch.name;
+            }
 
             if (dailyMeal.meal.dinner != null)
-                breakfastsDiscription.Text = dailyMeal.meal.dinner.name;
+            {
+                if (dailyMeal.meal.dinner.name.Length > 21)
+                    dinnerDiscription.Text = dailyMeal.meal.dinner.name.Substring(0, 21) + "...";
+                else
+                    dinnerDiscription.Text = dailyMeal.meal.dinner.name;
+            }
 
-            if (dailyMeal.meal.extraFood != null)
-                breakfastsDiscription.Text = dailyMeal.meal.extraFood.ToString();
+            if (dailyMeal.meal.extraFood != null && dailyMeal.meal.extraFood.Count != 0)
+                extrafoodDiscription.Text = dailyMeal.meal.extraFood.ToString();
         }
 
         private void MainMenu_FormClosed(object sender, FormClosedEventArgs e)
@@ -121,32 +135,47 @@ namespace HealthyLife_Pt2.Forms
             Application.Exit();
         }
 
-
-        private void breakfastAddButton_MouseEnter(object sender, EventArgs e)
+        private void meal_MouseEnter(object sender, EventArgs e)
         {
-            breakfastAddButton.PanelColor = Color.White;
+            ((MyPanel)sender).PanelColor = Color.White;
         }
 
-        private void breakfastAddButton_MouseLeave(object sender, EventArgs e)
+        private void meal_MouseLeave(object sender, EventArgs e)
         {
-            breakfastAddButton.PanelColor = Color.LavenderBlush;
+            ((MyPanel)sender).PanelColor = Color.LavenderBlush;
         }
 
         private void breakfastAddButton_Click(object sender, EventArgs e)
         {
             if (dailyMeal.meal.breakfast == null)
                 dailyMeal.meal.breakfast = new Recipe();
-            MealAddForm mealAddition = new MealAddForm(dailyMeal.meal.breakfast);
+            MealAddForm mealAddition = new MealAddForm();
             mealAddition.Show();
+            mealAddition.FormClosed += delegate (object? sender, FormClosedEventArgs e)
+            {
+                if (sender == null)
+                    return;
+                dailyMeal.meal.breakfast = ((MealAddForm)sender).recipe;
+                updateCurrentElements();
+                fillForm();
+            };
         }
+
 
         private void lunchAddButton_Click(object sender, EventArgs e)
         {
-
             if (dailyMeal.meal.lunch == null)
                 dailyMeal.meal.lunch = new Recipe();
-            MealAddForm mealAddForm = new MealAddForm(dailyMeal.meal.lunch);
+            MealAddForm mealAddForm = new MealAddForm();
             mealAddForm.Show();
+            mealAddForm.FormClosed += delegate (object? sender, FormClosedEventArgs e)
+            {
+                if (sender == null)
+                    return;
+                dailyMeal.meal.lunch = ((MealAddForm)sender).recipe;
+                updateCurrentElements();
+                fillForm();
+            };
         }
 
         private void dinnerAddButton_Click(object sender, EventArgs e)
@@ -154,8 +183,40 @@ namespace HealthyLife_Pt2.Forms
 
             if (dailyMeal.meal.dinner == null)
                 dailyMeal.meal.dinner = new Recipe();
-            MealAddForm mealAddForm = new MealAddForm(dailyMeal.meal.dinner);
-            mealAddForm.Show();
+            MealAddForm mealAddForm = new MealAddForm();
+            mealAddForm.Show(); 
+            mealAddForm.FormClosed += delegate (object? sender, FormClosedEventArgs e)
+            {
+                if (sender == null)
+                    return;
+                dailyMeal.meal.dinner = ((MealAddForm)sender).recipe;
+                updateCurrentElements();
+                fillForm();
+            };
         }
+
+        private void updateCurrentElements()
+        {
+            ElementController elementController = new ElementController();
+            elementController.clearElement(currentElement);
+
+            if (dailyMeal.meal.breakfast != null)
+                currentElement = elementController.sumElements(currentElement, dailyMeal.meal.breakfast.element);
+
+            if (dailyMeal.meal.lunch != null)
+                currentElement = elementController.sumElements(currentElement, dailyMeal.meal.lunch.element);
+
+            if (dailyMeal.meal.dinner != null)
+                currentElement = elementController.sumElements(currentElement, dailyMeal.meal.dinner.element);
+
+            if (dailyMeal.meal.extraFood != null && dailyMeal.meal.extraFood.Count != 0)
+            {
+                foreach (Product p in dailyMeal.meal.extraFood)
+                {
+                    currentElement = elementController.sumElements(currentElement, p.element);
+                }
+            }
+        }
+
     }
 }

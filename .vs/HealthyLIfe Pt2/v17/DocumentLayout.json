@@ -1,0 +1,397 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|d:\\\u0431\u0433\u0443\u0438\u0440\\2-\u0439 \u043A\u0443\u0440\u0441\\\u043A\u043F\u043E\\\u043A\u0443\u0440\u0441\u0430\u0447\\pt2\\healthylife pt2\\healthylife pt2\\formcontrols\\recipebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|solutionrelative:healthylife pt2\\formcontrols\\recipebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|d:\\\u0431\u0433\u0443\u0438\u0440\\2-\u0439 \u043A\u0443\u0440\u0441\\\u043A\u043F\u043E\\\u043A\u0443\u0440\u0441\u0430\u0447\\pt2\\healthylife pt2\\healthylife pt2\\formcontrols\\recipebutton.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|solutionrelative:healthylife pt2\\formcontrols\\recipebutton.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|d:\\\u0431\u0433\u0443\u0438\u0440\\2-\u0439 \u043A\u0443\u0440\u0441\\\u043A\u043F\u043E\\\u043A\u0443\u0440\u0441\u0430\u0447\\pt2\\healthylife pt2\\healthylife pt2\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|solutionrelative:healthylife pt2\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|d:\\\u0431\u0433\u0443\u0438\u0440\\2-\u0439 \u043A\u0443\u0440\u0441\\\u043A\u043F\u043E\\\u043A\u0443\u0440\u0441\u0430\u0447\\pt2\\healthylife pt2\\healthylife pt2\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|solutionrelative:healthylife pt2\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|d:\\\u0431\u0433\u0443\u0438\u0440\\2-\u0439 \u043A\u0443\u0440\u0441\\\u043A\u043F\u043E\\\u043A\u0443\u0440\u0441\u0430\u0447\\pt2\\healthylife pt2\\healthylife pt2\\formcontrols\\recipebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|solutionrelative:healthylife pt2\\formcontrols\\recipebutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|d:\\\u0431\u0433\u0443\u0438\u0440\\2-\u0439 \u043A\u0443\u0440\u0441\\\u043A\u043F\u043E\\\u043A\u0443\u0440\u0441\u0430\u0447\\pt2\\healthylife pt2\\healthylife pt2\\forms\\mealaddform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|solutionrelative:healthylife pt2\\forms\\mealaddform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|d:\\\u0431\u0433\u0443\u0438\u0440\\2-\u0439 \u043A\u0443\u0440\u0441\\\u043A\u043F\u043E\\\u043A\u0443\u0440\u0441\u0430\u0447\\pt2\\healthylife pt2\\healthylife pt2\\forms\\mealaddform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|solutionrelative:healthylife pt2\\forms\\mealaddform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\healthylife pt2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|solutionrelative:healthylife pt2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\healthylife pt2\\formcontrols\\ingredientaddition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|solutionrelative:healthylife pt2\\formcontrols\\ingredientaddition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\healthylife pt2\\forms\\recipecreationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|solutionrelative:healthylife pt2\\forms\\recipecreationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|d:\\\u0431\u0433\u0443\u0438\u0440\\2-\u0439 \u043A\u0443\u0440\u0441\\\u043A\u043F\u043E\\\u043A\u0443\u0440\u0441\u0430\u0447\\pt2\\healthylife pt2\\healthylife pt2\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|solutionrelative:healthylife pt2\\models\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\healthylife pt2\\forms\\productcreationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|solutionrelative:healthylife pt2\\forms\\productcreationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|d:\\\u0431\u0433\u0443\u0438\u0440\\2-\u0439 \u043A\u0443\u0440\u0441\\\u043A\u043F\u043E\\\u043A\u0443\u0440\u0441\u0430\u0447\\pt2\\healthylife pt2\\healthylife pt2\\forms\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|solutionrelative:healthylife pt2\\forms\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\healthylife pt2\\forms\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|solutionrelative:healthylife pt2\\forms\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|d:\\\u0431\u0433\u0443\u0438\u0440\\2-\u0439 \u043A\u0443\u0440\u0441\\\u043A\u043F\u043E\\\u043A\u0443\u0440\u0441\u0430\u0447\\pt2\\healthylife pt2\\healthylife pt2\\forms\\mealaddform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|solutionrelative:healthylife pt2\\forms\\mealaddform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|d:\\\u0431\u0433\u0443\u0438\u0440\\2-\u0439 \u043A\u0443\u0440\u0441\\\u043A\u043F\u043E\\\u043A\u0443\u0440\u0441\u0430\u0447\\pt2\\healthylife pt2\\healthylife pt2\\forms\\mainmenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|solutionrelative:healthylife pt2\\forms\\mainmenu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|d:\\\u0431\u0433\u0443\u0438\u0440\\2-\u0439 \u043A\u0443\u0440\u0441\\\u043A\u043F\u043E\\\u043A\u0443\u0440\u0441\u0430\u0447\\pt2\\healthylife pt2\\healthylife pt2\\myimageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|solutionrelative:healthylife pt2\\myimageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|d:\\\u0431\u0433\u0443\u0438\u0440\\2-\u0439 \u043A\u0443\u0440\u0441\\\u043A\u043F\u043E\\\u043A\u0443\u0440\u0441\u0430\u0447\\pt2\\healthylife pt2\\healthylife pt2\\models\\element.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|solutionrelative:healthylife pt2\\models\\element.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\healthylife pt2\\forms\\recipecreationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|solutionrelative:healthylife pt2\\forms\\recipecreationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\healthylife pt2\\forms\\recipecreationform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|solutionrelative:healthylife pt2\\forms\\recipecreationform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\healthylife pt2\\forms\\productcreationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|solutionrelative:healthylife pt2\\forms\\productcreationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\healthylife pt2\\formcontrols\\ingredientaddition.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF9CED9F-9D49-49D2-911E-41C8E69E44A1}|HealthyLIfe Pt2\\HealthyLIfe Pt2.csproj|solutionrelative:healthylife pt2\\formcontrols\\ingredientaddition.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 341,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RecipeButton.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\FormControls\\RecipeButton.cs",
+              "RelativeDocumentMoniker": "HealthyLIfe Pt2\\FormControls\\RecipeButton.cs",
+              "ToolTip": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\FormControls\\RecipeButton.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]*",
+              "RelativeToolTip": "HealthyLIfe Pt2\\FormControls\\RecipeButton.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:31:36.186Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Resources.Designer.cs",
+              "DocumentMoniker": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\Properties\\Resources.Designer.cs",
+              "RelativeDocumentMoniker": "HealthyLIfe Pt2\\Properties\\Resources.Designer.cs",
+              "ToolTip": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\Properties\\Resources.Designer.cs",
+              "RelativeToolTip": "HealthyLIfe Pt2\\Properties\\Resources.Designer.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAgwEsAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T12:30:15.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RecipeController.cs",
+              "DocumentMoniker": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\Controllers\\RecipeController.cs",
+              "RelativeDocumentMoniker": "HealthyLIfe Pt2\\Controllers\\RecipeController.cs",
+              "ToolTip": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\Controllers\\RecipeController.cs",
+              "RelativeToolTip": "HealthyLIfe Pt2\\Controllers\\RecipeController.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAADwv2EAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T23:27:58.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\Models\\Recipe.cs",
+              "RelativeDocumentMoniker": "HealthyLIfe Pt2\\Models\\Recipe.cs",
+              "ToolTip": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\Models\\Recipe.cs",
+              "RelativeToolTip": "HealthyLIfe Pt2\\Models\\Recipe.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T23:27:43.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RecipeButton.Designer.cs",
+              "DocumentMoniker": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\FormControls\\RecipeButton.Designer.cs",
+              "RelativeDocumentMoniker": "HealthyLIfe Pt2\\FormControls\\RecipeButton.Designer.cs",
+              "ToolTip": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\FormControls\\RecipeButton.Designer.cs*",
+              "RelativeToolTip": "HealthyLIfe Pt2\\FormControls\\RecipeButton.Designer.cs*",
+              "ViewState": "AQIAAG0AAAAAAAAAAADgv3cAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T19:33:43.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MyImageConverter.cs",
+              "DocumentMoniker": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\MyImageConverter.cs",
+              "RelativeDocumentMoniker": "HealthyLIfe Pt2\\MyImageConverter.cs",
+              "ToolTip": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\MyImageConverter.cs",
+              "RelativeToolTip": "HealthyLIfe Pt2\\MyImageConverter.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAjwCIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T19:22:28.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Element.cs",
+              "DocumentMoniker": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\Models\\Element.cs",
+              "RelativeDocumentMoniker": "HealthyLIfe Pt2\\Models\\Element.cs",
+              "ToolTip": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\Models\\Element.cs",
+              "RelativeToolTip": "HealthyLIfe Pt2\\Models\\Element.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T19:18:39.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RecipeButton.cs",
+              "DocumentMoniker": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\FormControls\\RecipeButton.cs",
+              "RelativeDocumentMoniker": "HealthyLIfe Pt2\\FormControls\\RecipeButton.cs",
+              "ToolTip": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\FormControls\\RecipeButton.cs*",
+              "RelativeToolTip": "HealthyLIfe Pt2\\FormControls\\RecipeButton.cs*",
+              "ViewState": "AQIAABEAAAAAAAAAAAA/wBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T18:35:33.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainMenu.Designer.cs",
+              "DocumentMoniker": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\Forms\\MainMenu.Designer.cs",
+              "RelativeDocumentMoniker": "HealthyLIfe Pt2\\Forms\\MainMenu.Designer.cs",
+              "ToolTip": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\Forms\\MainMenu.Designer.cs",
+              "RelativeToolTip": "HealthyLIfe Pt2\\Forms\\MainMenu.Designer.cs",
+              "ViewState": "AQIAANIBAAAAAAAAAAAhwOAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T17:44:54.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MealAddForm.Designer.cs",
+              "DocumentMoniker": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\Forms\\MealAddForm.Designer.cs",
+              "RelativeDocumentMoniker": "HealthyLIfe Pt2\\Forms\\MealAddForm.Designer.cs",
+              "ToolTip": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\Forms\\MealAddForm.Designer.cs",
+              "RelativeToolTip": "HealthyLIfe Pt2\\Forms\\MealAddForm.Designer.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwEQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T17:37:24.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MealAddForm.cs",
+              "DocumentMoniker": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\Forms\\MealAddForm.cs",
+              "RelativeDocumentMoniker": "HealthyLIfe Pt2\\Forms\\MealAddForm.cs",
+              "ToolTip": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\Forms\\MealAddForm.cs",
+              "RelativeToolTip": "HealthyLIfe Pt2\\Forms\\MealAddForm.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAABUAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T17:32:15.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MealAddForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\Forms\\MealAddForm.cs",
+              "RelativeDocumentMoniker": "HealthyLIfe Pt2\\Forms\\MealAddForm.cs",
+              "ToolTip": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\Forms\\MealAddForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "HealthyLIfe Pt2\\Forms\\MealAddForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T17:31:59.442Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductCreationForm.cs",
+              "DocumentMoniker": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\Forms\\ProductCreationForm.cs",
+              "RelativeDocumentMoniker": "HealthyLIfe Pt2\\Forms\\ProductCreationForm.cs",
+              "ToolTip": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\Forms\\ProductCreationForm.cs",
+              "RelativeToolTip": "HealthyLIfe Pt2\\Forms\\ProductCreationForm.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAiwD0AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T06:45:57.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\Forms\\MainMenu.cs",
+              "RelativeDocumentMoniker": "HealthyLIfe Pt2\\Forms\\MainMenu.cs",
+              "ToolTip": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\Forms\\MainMenu.cs",
+              "RelativeToolTip": "HealthyLIfe Pt2\\Forms\\MainMenu.cs",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAiwGsAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T05:10:35.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainMenu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\Forms\\MainMenu.cs",
+              "RelativeDocumentMoniker": "HealthyLIfe Pt2\\Forms\\MainMenu.cs",
+              "ToolTip": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\Forms\\MainMenu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "HealthyLIfe Pt2\\Forms\\MainMenu.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T05:10:10.25Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductCreationForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\Forms\\ProductCreationForm.cs",
+              "RelativeDocumentMoniker": "HealthyLIfe Pt2\\Forms\\ProductCreationForm.cs",
+              "ToolTip": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\Forms\\ProductCreationForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "HealthyLIfe Pt2\\Forms\\ProductCreationForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T05:04:43.226Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RecipeCreationForm.Designer.cs",
+              "DocumentMoniker": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\Forms\\RecipeCreationForm.Designer.cs",
+              "RelativeDocumentMoniker": "HealthyLIfe Pt2\\Forms\\RecipeCreationForm.Designer.cs",
+              "ToolTip": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\Forms\\RecipeCreationForm.Designer.cs",
+              "RelativeToolTip": "HealthyLIfe Pt2\\Forms\\RecipeCreationForm.Designer.cs",
+              "ViewState": "AQIAAJ4BAAAAAAAAAAAhwKoBAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T12:10:32.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IngredientAddition.cs",
+              "DocumentMoniker": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\FormControls\\IngredientAddition.cs",
+              "RelativeDocumentMoniker": "HealthyLIfe Pt2\\FormControls\\IngredientAddition.cs",
+              "ToolTip": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\FormControls\\IngredientAddition.cs",
+              "RelativeToolTip": "HealthyLIfe Pt2\\FormControls\\IngredientAddition.cs",
+              "ViewState": "AQIAAKAAAAAAAAAAAAAEwKcAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T11:51:32.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IngredientAddition.Designer.cs",
+              "DocumentMoniker": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\FormControls\\IngredientAddition.Designer.cs",
+              "RelativeDocumentMoniker": "HealthyLIfe Pt2\\FormControls\\IngredientAddition.Designer.cs",
+              "ToolTip": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\FormControls\\IngredientAddition.Designer.cs",
+              "RelativeToolTip": "HealthyLIfe Pt2\\FormControls\\IngredientAddition.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T12:03:33.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\Program.cs",
+              "RelativeDocumentMoniker": "HealthyLIfe Pt2\\Program.cs",
+              "ToolTip": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\Program.cs",
+              "RelativeToolTip": "HealthyLIfe Pt2\\Program.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T11:52:59.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RecipeCreationForm.cs",
+              "DocumentMoniker": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\Forms\\RecipeCreationForm.cs",
+              "RelativeDocumentMoniker": "HealthyLIfe Pt2\\Forms\\RecipeCreationForm.cs",
+              "ToolTip": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\Forms\\RecipeCreationForm.cs",
+              "RelativeToolTip": "HealthyLIfe Pt2\\Forms\\RecipeCreationForm.cs",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAwwHsAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T11:46:08.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RecipeCreationForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\Forms\\RecipeCreationForm.cs",
+              "RelativeDocumentMoniker": "HealthyLIfe Pt2\\Forms\\RecipeCreationForm.cs",
+              "ToolTip": "D:\\\u0411\u0413\u0423\u0418\u0420\\2-\u0439 \u043A\u0443\u0440\u0441\\\u041A\u041F\u041E\\\u041A\u0443\u0440\u0441\u0430\u0447\\Pt2\\HealthyLIfe Pt2\\HealthyLIfe Pt2\\Forms\\RecipeCreationForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "HealthyLIfe Pt2\\Forms\\RecipeCreationForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T11:43:48.888Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

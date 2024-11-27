@@ -67,7 +67,7 @@
             createButton.Rad = 60;
             createButton.Size = new Size(177, 58);
             createButton.TabIndex = 2;
-            createButton.Load += createButton_Load;
+            createButton.Click += createButton_Click;
             // 
             // MealAddForm
             // 
@@ -84,7 +84,6 @@
             MinimumSize = new Size(700, 520);
             Name = "MealAddForm";
             StartPosition = FormStartPosition.CenterScreen;
-            FormClosed += MealAddForm_FormClosed;
             ResumeLayout(false);
             PerformLayout();
         }

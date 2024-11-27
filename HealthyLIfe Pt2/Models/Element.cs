@@ -20,6 +20,9 @@ public partial class Element
 
     public override string ToString()
     {
-        return $"{calories} ккал, Б - {proteins}г., Ж - {fats}г., У - {carbohydrates}г.";
+        double p = Math.Round(proteins * 10) / 10;
+        double f = Math.Round(fats * 10) / 10;
+        double c = Math.Round(carbohydrates * 10) / 10;
+        return $"K - {calories} ккал, Б - {p}г., Ж - {f}г., У - {c}г.";
     }
 }

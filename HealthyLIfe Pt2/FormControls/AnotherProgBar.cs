@@ -64,7 +64,7 @@ namespace HealthyLife_Pt2.FormControls
             {
                 old = this.value;
                 if (value > maxValue)
-                    throw new Exception("The value is greater than the maximum value of progress");
+                    value = maxValue;
                 if (value < minValue)
                     throw new Exception("The value is lower than the maximum value of progress");
                 current = value;

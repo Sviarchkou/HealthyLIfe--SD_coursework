@@ -89,8 +89,16 @@ namespace HealthyLife_Pt2.Controllers
             DBConnector db = new DBConnector();
             db.Open();
             recipe.id = await db.insert(commandHeader.Append(values).ToString());
-
             db.Close();
+
+            IngredientController ingredientController = new IngredientController();
+            
+            foreach (Ingredient i in recipe.ingredients)
+            {
+                i.recipe = recipe;
+                await ingredientController.insertIngredient(i);
+            }
+
             return recipe.id;
         }
 

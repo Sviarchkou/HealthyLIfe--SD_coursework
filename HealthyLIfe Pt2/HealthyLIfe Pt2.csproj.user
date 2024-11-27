@@ -7,7 +7,7 @@
     <Compile Update="FormControls\CircularProgressBar.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="FormControls\IgredientAddition.cs">
+    <Compile Update="FormControls\IngredientAddition.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="FormControls\MyPanel.cs">

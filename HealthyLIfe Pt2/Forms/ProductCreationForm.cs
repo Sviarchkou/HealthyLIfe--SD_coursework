@@ -32,10 +32,19 @@ namespace HealthyLIfe_Pt2.Forms
 
             Element element = new Element();
 
-            element.calories = Int32.Parse(caloriesTextBox.Text);
-            element.proteins = Double.Parse(proteinsTextBox.Text);
-            element.fats = Double.Parse(fatsTextBox.Text);
-            element.carbohydrates = Double.Parse(carboTextBox.Text);
+            try
+            {
+                element.calories = Int32.Parse(caloriesTextBox.Text);
+                element.proteins = Double.Parse(proteinsTextBox.Text);
+                element.fats = Double.Parse(fatsTextBox.Text);
+                element.carbohydrates = Double.Parse(carboTextBox.Text);
+                element.minerals = mineralsTextBox.Text;
+                element.vitamins = vitaminsTextBox.Text;
+            }catch(Exception ex)
+            {
+                MessageBox.Show("Неверные параметры");
+                return;
+            }
 
             product.element = element;
 
@@ -50,8 +59,8 @@ namespace HealthyLIfe_Pt2.Forms
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Image image;
-            product.photo = ImageConverter.chooseImage(out image);
+            Image? image;
+            product.photo = MyImageConverter.chooseImage(out image);
 
             if (image == null)
                 return;

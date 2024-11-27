@@ -68,7 +68,9 @@
             recipeLabel = new Label();
             recipeDiscription = new Label();
             recipePanel = new MyPanel();
-            recipePicture = new Panel();
+            recipePicture = new PictureBox();
+            label1 = new Label();
+            ((System.ComponentModel.ISupportInitialize)recipePicture).BeginInit();
             SuspendLayout();
             // 
             // recipeLabel
@@ -77,53 +79,72 @@
             recipeLabel.BackColor = Color.Gainsboro;
             recipeLabel.Enabled = false;
             recipeLabel.Font = new Font("Verdana", 13.8F, FontStyle.Bold);
-            recipeLabel.Location = new Point(133, 25);
+            recipeLabel.Location = new Point(124, 20);
             recipeLabel.MaximumSize = new Size(280, 30);
             recipeLabel.Name = "recipeLabel";
-            recipeLabel.Size = new Size(257, 28);
+            recipeLabel.Size = new Size(279, 28);
             recipeLabel.TabIndex = 22;
-            recipeLabel.Text = "Запечёная курица";
+            recipeLabel.Text = "Запечёная курицаф";
             // 
             // recipeDiscription
             // 
             recipeDiscription.AutoSize = true;
             recipeDiscription.BackColor = Color.Gainsboro;
             recipeDiscription.Enabled = false;
-            recipeDiscription.Font = new Font("Verdana", 10F);
-            recipeDiscription.Location = new Point(133, 53);
-            recipeDiscription.MaximumSize = new Size(280, 20);
+            recipeDiscription.Font = new Font("Verdana", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 204);
+            recipeDiscription.Location = new Point(124, 50);
+            recipeDiscription.MaximumSize = new Size(250, 42);
             recipeDiscription.Name = "recipeDiscription";
-            recipeDiscription.Size = new Size(274, 20);
+            recipeDiscription.Size = new Size(235, 40);
             recipeDiscription.TabIndex = 24;
-            recipeDiscription.Text = "Рекомендуется 470 ккал . . . .";
+            recipeDiscription.Text = "К - 130 ккал, Б - 70.2 г., Ж - 35.2 г., У - 140 г.";
             // 
             // recipePanel
             // 
             recipePanel.BackColor = Color.Transparent;
             recipePanel.BorderColor = Color.Transparent;
+            recipePanel.Font = new Font("Verdana", 9F, FontStyle.Regular, GraphicsUnit.Point, 204);
             recipePanel.Location = new Point(3, 3);
             recipePanel.Name = "recipePanel";
             recipePanel.PanelColor = Color.Gainsboro;
-            recipePanel.Rad = 15;
-            recipePanel.Size = new Size(520, 100);
+            recipePanel.Rad = 30;
+            recipePanel.Size = new Size(487, 97);
             recipePanel.TabIndex = 26;
             // 
             // recipePicture
             // 
             recipePicture.BackColor = Color.Gainsboro;
-            recipePicture.BackgroundImage = Properties.Resources.Brakfast_1;
             recipePicture.BackgroundImageLayout = ImageLayout.Stretch;
             recipePicture.Enabled = false;
+            recipePicture.Image = HealthyLIfe_Pt2.Properties.Resources.mealPic;
             recipePicture.Location = new Point(23, 11);
             recipePicture.Name = "recipePicture";
-            recipePicture.Size = new Size(85, 85);
+            recipePicture.Size = new Size(80, 80);
+            recipePicture.SizeMode = PictureBoxSizeMode.Zoom;
             recipePicture.TabIndex = 27;
+            recipePicture.TabStop = false;
+            // 
+            // label1
+            // 
+            label1.BackColor = Color.FromArgb(255, 255, 128);
+            label1.BorderStyle = BorderStyle.FixedSingle;
+            label1.Font = new Font("Georgia", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            label1.ForeColor = SystemColors.ControlText;
+            label1.Location = new Point(453, 4);
+            label1.Margin = new Padding(3);
+            label1.Name = "label1";
+            label1.Size = new Size(22, 21);
+            label1.TabIndex = 28;
+            label1.Text = "i";
+            label1.TextAlign = ContentAlignment.MiddleCenter;
+            label1.Click += label1_Click;
             // 
             // RecipeButton
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Transparent;
+            Controls.Add(label1);
             Controls.Add(recipePicture);
             Controls.Add(recipeDiscription);
             Controls.Add(recipeLabel);
@@ -132,6 +153,7 @@
             MinimumSize = new Size(525, 105);
             Name = "RecipeButton";
             Size = new Size(525, 105);
+            ((System.ComponentModel.ISupportInitialize)recipePicture).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -140,6 +162,7 @@
         private Label recipeLabel;
         private Label recipeDiscription;
         private MyPanel recipePanel;
-        private Panel recipePicture;
+        private PictureBox recipePicture;
+        private Label label1;
     }
 }
